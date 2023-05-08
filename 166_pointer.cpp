@@ -20,7 +20,7 @@ int main()
 
 	mahasiswa& ref = mhs;	//pointer Reference Mhs
 	ref.nim = 2;			//Member Acces operator
-	mhs.ShowNim();
+	mhs.shownim();
 
 	mahasiswa* pMhs = &mhs;			//pointer Dereference pMhs
 	pMhs->nim = 3;					//Arrow operator
