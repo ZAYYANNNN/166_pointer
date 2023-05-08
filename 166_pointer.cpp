@@ -19,4 +19,5 @@ int main()
 	mhs.ShowNim();			//Member Acces operator
 
 	mahasiswa& ref = mhs;	//pointer Reference Mhs
+	ref.nim = 2;			//Member Acces operator
 }
