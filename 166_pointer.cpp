@@ -20,4 +20,12 @@ int main()
 
 	mahasiswa& ref = mhs;	//pointer Reference Mhs
 	ref.nim = 2;			//Member Acces operator
+	mhs.ShowNim();
+
+	mahasiswa* pMhs = &mhs;			//pointer Dereference pMhs
+	pMhs->nim = 3;					//Arrow operator
+	mhs.ShowNim();
+	system("pause");
+	return 0;
+	
 }
