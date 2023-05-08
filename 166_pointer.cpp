@@ -16,4 +16,5 @@ void mahasiswa::ShowNim() {		//implementasi method di luar class
 int main()
 {
 	mahasiswa mhs{ 1 };		//object mhs
+	mhs.ShowNim();			//Member Acces operator
 }
